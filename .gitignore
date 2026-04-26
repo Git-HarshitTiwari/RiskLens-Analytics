@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Node
+node_modules/
+dashboard/frontend/node_modules/
+
+# React build (don't commit dist — Railway builds it)
+dashboard/frontend/dist/
+
+# Test files
+test_beta.py
+
+# Logs
+logs/
+*.log
