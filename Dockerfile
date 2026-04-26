@@ -22,7 +22,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api/ ./api/
 COPY engine/ ./engine/
 COPY config/ ./config/
-COPY .env .env
 
 # Copy built React frontend from Stage 1
 COPY --from=frontend-builder /app/frontend/dist ./dashboard/frontend/dist
